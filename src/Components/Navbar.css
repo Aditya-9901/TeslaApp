@@ -3,12 +3,14 @@
     align-items: center;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
+    /* padding-top: 2px; */
+    
+    
 }
 
 .leftNav > img{
     width: 100px;
-    height: 20px;
+    height: auto;
     align-items: center;
 }
 
@@ -29,7 +31,14 @@
     color: white;
 }
 .rightNav {
-    margin-top: 15px;
+    margin-top: 10px;
+}
+.leftNav{
+    margin-top: 10px;
+
+}
+.centerNav{
+    margin-top: 10px;
 }
 .rightNav > ul{
     list-style-type: none;

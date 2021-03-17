@@ -26,7 +26,7 @@
 
 import React from 'react';
 import "../Components/Sidebar.css"
-
+import MenuIcon from '@material-ui/icons/Menu';
 
 const openNav = () => {
   document.getElementById("mySidenav").style.width = "250px";
@@ -58,7 +58,7 @@ function Siderbar() {
 </div>
 
 
-<span style={{fontSize:"30px",  cursor:"pointer" ,    marginRight: "20px"}} onClick={openNav}>&#9776; </span>
+<span style={{  cursor:"pointer" ,    marginRight: "20px"}} onClick={openNav}><MenuIcon style={{fontSize:30}} /> </span>
 </>
 )
 }
