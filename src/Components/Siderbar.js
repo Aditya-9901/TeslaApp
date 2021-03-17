@@ -26,7 +26,7 @@
 
 import React from 'react';
 import "../Components/Sidebar.css"
-import MenuIcon from '@material-ui/icons/Menu';
+
 
 const openNav = () => {
   document.getElementById("mySidenav").style.width = "250px";
