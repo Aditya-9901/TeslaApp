@@ -5,7 +5,8 @@ import "./Home.css";
 // import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import CarFeatures from './CarFeatures';
 import Video from './Video';
-import Specs from './Specs';
+
+import BackSide from './BackSide';
 
 
 
@@ -63,7 +64,7 @@ F:
         </div>
 
         <div >
-            <Specs />
+            <BackSide />
         </div>
 
 
