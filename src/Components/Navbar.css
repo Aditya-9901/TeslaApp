@@ -10,6 +10,7 @@
     width: 100px;
     height: 20px;
     align-items: center;
+    filter: grayscale(100%);
 }
 
 .centerNav > ul{
