@@ -1,8 +1,8 @@
 import React from 'react';
-import "../Components/Navbar.css";
-import Sidebar from "./Siderbar"
-// import MenuIcon from '@material-ui/icons/Menu';
-// import MenuOutlinedIcon from '@material-ui/icons/MenuOutlined';
+import "./Navbar.css";
+import Sidebar from './Sidebar';
+
+
 
 
 
@@ -24,12 +24,12 @@ function Navbar() {
             </ul>
         </div>
 
-        <div className="rightNav">
-            <ul>
+        <div >
+            <ul className="rightNav">
                 <li><a href="#">Shop</a></li>
                 <li><a href="#">Tesla account</a></li>
                 <Sidebar />
-                {/* <a href="#"><MenuOutlinedIcon className="rightNav__icon"/></a> */}
+               
             </ul>
         </div>
 

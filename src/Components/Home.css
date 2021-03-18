@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
@@ -57,3 +58,29 @@
     color: black;
     background-color: white;
 }
+
+/* .home {
+    background-image: url("https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2017/11/Tesla-Roadster-103.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.header {
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 600;
+    font-size: xx-large;
+} */
+
+.Home{
+    background-image: url("https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2017/11/Tesla-Roadster-103.jpg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+

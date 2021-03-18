@@ -1,11 +1,11 @@
 import React from 'react'
 
-function avv() {
+function ModelS() {
     return (
         <div>
-            <h1>YOOOO</h1>
+            
         </div>
     )
 }
 
-export default avv
+export default ModelS;

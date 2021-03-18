@@ -3,7 +3,9 @@
     align-items: center;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
+    /* padding-top: 2px; */
+    
+    
 }
 
 .leftNav > img{
@@ -11,6 +13,10 @@
     height: 20px;
     align-items: center;
     filter: grayscale(100%);
+
+    height: auto;
+    
+
 }
 
 .centerNav > ul{
@@ -30,22 +36,32 @@
     color: white;
 }
 .rightNav {
-    margin-top: 15px;
-}
-.rightNav > ul{
-    list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    
+    margin-top: 10px;
+}
+.leftNav{
+    margin-top: 10px;
+
+
+}
+.centerNav{
+    margin-top: 10px;
 }
 
-.rightNav >ul > li > a{
+.rightNav {
+    list-style-type: none;
+    
+}
+
+.rightNav  li > a{
     text-decoration: none;
-    margin: 10px;
+    margin-right: 10px;
     font-weight: bolder;
     color: black;
 }
 
-.rightNav >ul > li > a:hover{
+.rightNav > li > a:hover{
     color: white;
 }
 
