@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import "./Home.css";
 import Sidebar from './Sidebar';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import CarFeatures from './CarFeatures';
 
 
 
@@ -40,25 +41,21 @@ function Home() {
              <div id="home__sidebar"><Sidebar /></div>
 
              </div> */}
-             
-             <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
                 
-                 <h1 style={{marginTop:20}}>Roadster</h1>
-                 <div style={{marginBottom:0}} className="home__desc">
+                 <div className="heading" style={{display:"flex",alignItems:"center",justifyContent:"center",marginTop:20}}><h2>Roadster</h2></div>
+             
+                 
+                 <CarFeatures />
 
-                    <p style={{marginBottom:0}}>The quickest car in the world ,with record-setting acceleration,range and performance</p>
-
-                 </div>
-
-                 <ExpandMoreIcon onClick={()=>{scrollToPos(500)}} style={{color:"white",fontSize:50,position:"fixed",top:580}} />
-             </div>
+                 {/* <ExpandMoreIcon onClick={()=>{scrollToPos(500)}} style={{color:"white",fontSize:50,position:"fixed",top:580}} /> */}
+            
 
            
            {/* <img src="https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2017/11/Tesla-Roadster-103.jpg" style={{width:"100%",height:"100%",objectFit:"contain",overflow:"hidden"}} alt="" /> */}
         </div>
 
         <div id="heythere">
-            <h1>hey</h1>
+            <h1>test</h1>
         </div>
         
         </div>

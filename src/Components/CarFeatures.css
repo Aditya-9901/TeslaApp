@@ -1,0 +1,40 @@
+.headerBottom {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  
+    padding-top: 450px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+  }
+  
+  
+  
+  .headerIcons > ul {
+      width: 600px;
+    display: flex;
+    align-items: center !important;
+    margin: auto !important;
+  }
+  
+  .headerIcons > ul > li {
+    list-style-type: none;
+    color: white;
+    padding-top: 20px;
+    padding-left: 56px;
+  }
+  
+  .headerBtn {
+      font-family: "Roboto", sans-serif;
+      border: 3px solid white;
+      background-color: black;
+      color: white;
+      border-radius: 20px;
+      padding: 8px 22px;
+      cursor: pointer;
+  }
+  
+  .headerBtn:hover {
+      color:black;
+      background-color: white;
+  }
