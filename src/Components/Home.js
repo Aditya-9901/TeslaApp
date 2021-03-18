@@ -7,6 +7,7 @@ import CarFeatures from './CarFeatures';
 import Video from './Video';
 
 import BackSide from './BackSide';
+import Footer from './Footer';
 
 
 
@@ -65,6 +66,10 @@ F:
 
         <div >
             <BackSide />
+        </div>
+
+        <div >
+            <Footer />
         </div>
 
 
