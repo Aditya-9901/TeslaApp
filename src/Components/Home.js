@@ -60,6 +60,8 @@ function Home() {
         <div>
             
         <BackSide />
+
+        
         </div>
        
         </div>
