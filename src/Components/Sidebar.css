@@ -1,40 +1,4 @@
-/* * {
-    margin: 0 ;
-}
-.sidebar {
 
-    background-color: white;
-    border: none;
-    width: 25vw;
-    float: right;
-    display: flex;
-}
-
-.sidebar > ul { 
-    list-style-type: none;
-}
-
-.sidebar > ul > li { 
-    margin: 3vh 2vh;
-}
-
-
-.sidebar > ul >li > a{
-    text-decoration: none;
-    color: black !important;
-}
-
-.line {
-    width: 20vw;
-    display: flex;
-    justify-content: center !important;
-    align-items: center !important;
-} */
-
-/* body {
-    font-family: "Lato", sans-serif;
-  }
-   */
   .sidenav {
   
     height: 100%;

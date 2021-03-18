@@ -11,7 +11,7 @@
 .leftNav > img{
     width: 100px;
     height: auto;
-    align-items: center;
+    
 }
 
 .centerNav > ul{
@@ -31,29 +31,32 @@
     color: white;
 }
 .rightNav {
+    display: flex;
+    
     margin-top: 10px;
 }
 .leftNav{
     margin-top: 10px;
 
+
 }
 .centerNav{
     margin-top: 10px;
 }
-.rightNav > ul{
+
+.rightNav {
     list-style-type: none;
-    display: flex;
-    justify-content: space-between;
+    
 }
 
-.rightNav >ul > li > a{
+.rightNav  li > a{
     text-decoration: none;
-    margin: 10px;
+    margin-right: 10px;
     font-weight: bolder;
     color: black;
 }
 
-.rightNav >ul > li > a:hover{
+.rightNav > li > a:hover{
     color: white;
 }
 

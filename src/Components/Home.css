@@ -1,4 +1,4 @@
-.home {
+/* .home {
     background-image: url("https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2017/11/Tesla-Roadster-103.jpg");
     background-size: cover;
     background-position: center;
@@ -11,4 +11,14 @@
     padding-top: 50px;
     font-weight: 600;
     font-size: xx-large;
+} */
+
+.Home{
+    background-image: url("https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2017/11/Tesla-Roadster-103.jpg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
 }
