@@ -1,0 +1,17 @@
+.video {
+    background-color: black;
+    height: 100vh;
+}
+
+
+ .videoContianer {
+    position: relative;
+    left: 50vw;
+    transform: translateX(-50%);
+    margin-top: 80px;
+    width: 80vw;
+}
+
+.videoSpecs {
+    color: white;
+}

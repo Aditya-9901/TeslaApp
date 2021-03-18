@@ -1,10 +1,12 @@
-
 import React,{useState} from 'react';
 import Navbar from "./Navbar";
 import "./Home.css";
-import Sidebar from './Sidebar';
+// import Sidebar from './Sidebar';
+// import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import CarFeatures from './CarFeatures';
+import Video from './Video';
+import Specs from './Specs';
 
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 
 
@@ -22,7 +24,7 @@ function Home() {
     }
     
     
-
+F:
     
     return (
 
@@ -36,51 +38,35 @@ function Home() {
              
              
              
-             {/* <div className="sidebarView">
+              {/* <div className="sidebarView">
 
              <div id="home__sidebar"><Sidebar /></div>
 
-             </div> */}
-             
-             <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+             </div>  */}
                 
-                 <h1 style={{marginTop:20}}>Roadster</h1>
-                 <div style={{marginBottom:0}} className="home__desc">
+                 <div className="heading" style={{display:"flex",alignItems:"center",justifyContent:"center",marginTop:20}}><h2>Roadster</h2></div>
+             
+                 
+                 <div><CarFeatures /></div>
 
-                    <p style={{marginBottom:0}}>The quickest car in the world ,with record-setting acceleration,range and performance</p>
-
-                 </div>
-                 <div className="header">
-              <p>Roadster</p>
-            </div>
-
-            <div className="headerBottom">
-              <p>The quickest car in the world, with record-</p>
-               <p>setting acceleration, range and performance.</p>
-            </div>
-
-            <div className="headerIcons">
-              <ul className="headerIconsList">
-                  <li><p className="big"><SpeedSharpIcon />1.9<span>s</span></p><p className="prefix">0-60 mph</p></li>
-                  <li><p className="suffix">+250 mph</p><p className="prefix">Top Speed</p></li>
-                  <li><p className="suffix">620 mi</p><p className="prefix">Range</p></li>
-                  <li><button className="headerBtn">RESERVE NOW</button></li>
-
-
-              </ul>
-            </div>
-                 <ExpandMoreIcon onClick={()=>{scrollToPos(500)}} style={{color:"white",fontSize:50,position:"fixed",top:580}} />
-             </div>
+                 {/* <ExpandMoreIcon onClick={()=>{scrollToPos(500)}} style={{color:"white",fontSize:50,position:"fixed",top:580}} /> */}
+            
 
            
            {/* <img src="https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2017/11/Tesla-Roadster-103.jpg" style={{width:"100%",height:"100%",objectFit:"contain",overflow:"hidden"}} alt="" /> */}
         </div>
 
-        <div id="heythere">
-            <h1>hey</h1>
+    
+        
+        <div >
+            <Video />
         </div>
 
-        
+        <div >
+            <Specs />
+        </div>
+
+
         </div>
     )
 }

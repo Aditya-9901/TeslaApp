@@ -7,6 +7,7 @@ import Sidebar from './Sidebar';
 
 
 function Navbar() {
+    
     return (
         <div className="Navbar">
         <div className="leftNav">
