@@ -4,7 +4,10 @@ import Sidebar from './Sidebar';
 
 
 
+
+
 function Navbar() {
+    
     return (
         <div className="Navbar">
         <div className="leftNav">
@@ -13,10 +16,10 @@ function Navbar() {
 
         <div className="centerNav">
             <ul>
-                <li><a href="#">Model S</a></li>
-                <li><a href="#">Model 3</a></li>
-                <li><a href="#">Model X</a></li>
-                <li><a href="#">Model Y</a></li>
+                <li><a href="#">MODEL S</a></li>
+                <li><a href="#">MODEL 3</a></li>
+                <li><a href="#">MODEL X</a></li>
+                <li><a href="#">MODEL Y</a></li>
                 <li><a href="#">Solar Roof</a></li>
                 <li><a href="#">Solar Panel</a></li>
             </ul>

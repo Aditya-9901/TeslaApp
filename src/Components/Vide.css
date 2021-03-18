@@ -1,0 +1,49 @@
+.video {
+  background-color: black;
+  height: 100vh;
+}
+
+.videoContianer {
+  position: relative;
+  left: 50vw;
+  transform: translateX(-50%);
+  margin-top: 80px;
+  width: 80vw;
+}
+
+.videoSpecs {
+  color: white;
+  /* display: flex; */
+  font-family: "HeiT ASC Traditional Chinese", "M Hei PRC W45",
+    "AXIS Font Japanese W55", "FB New Gothic", "Gotham Book", system, sans-serif;
+  line-height: 50px;
+  /* margin: auto; */
+  position: absolute;
+  left: 33%;
+  background-size: cover;
+}
+.right {
+  /* display: flex; */
+  text-align: right;
+  width: 300px;
+  float: right;
+}
+
+.left {
+  /* display: flex; */
+  text-align: left;
+  width: 300px;
+}
+.cont {
+  display: flex;
+  width: 500px;
+  /* flex: 1; */
+}
+.new1 {
+  border-bottom: 0.5px solid grey;
+  width: auto;
+}
+
+.new2 {
+  border-top: 0.5px solid grey;
+}

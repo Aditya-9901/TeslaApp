@@ -1,69 +1,69 @@
 .Navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-items: center;
-    /* padding-top: 2px; */
-    
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 2px; */
+  font-family: "Gotham Medium", sans-serif;
+  font-weight: 350;
 }
 
-.leftNav > img{
-    width: 100px;
-    height: auto;
-    
+.leftNav > img {
+  width: 100px;
+  height: 20px;
+  align-items: center;
+  filter: grayscale(100%);
+
+  height: auto;
 }
 
-.centerNav > ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
+.centerNav > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
 }
 
-.centerNav >ul > li > a{
-    text-decoration: none;
-    margin: 10px;
-    font-weight: bolder;
-    color: black;
+.centerNav > ul > li > a {
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bolder;
+  color: black;
 }
 
-.centerNav >ul > li > a:hover{
-    color: white;
+.centerNav > ul > li > a:hover {
+  color: white;
 }
 .rightNav {
-    display: flex;
-    
-    margin-top: 10px;
-}
-.leftNav{
-    margin-top: 10px;
+  display: flex;
 
-
+  margin-top: 10px;
 }
-.centerNav{
-    margin-top: 10px;
+.leftNav {
+  margin-top: 10px;
+}
+.centerNav {
+  margin-top: 10px;
 }
 
 .rightNav {
-    list-style-type: none;
-    
+  list-style-type: none;
 }
 
-.rightNav  li > a{
-    text-decoration: none;
-    margin-right: 10px;
-    font-weight: bolder;
-    color: black;
+.rightNav li > a {
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: bolder;
+  color: black;
 }
 
-.rightNav > li > a:hover{
-    color: white;
+.rightNav > li > a:hover {
+  color: white;
 }
 
 .rightNav__icon {
-    color: black;
+  color: black;
 }
 
 .rightNav__icon:hover {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }

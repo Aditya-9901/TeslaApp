@@ -11,9 +11,9 @@
   
   
   .headerIcons > ul {
-      width: 600px;
+      /* width: 600px; */
     display: flex;
-    align-items: center !important;
+    /* align-items: center !important; */
     margin: auto !important;
   }
   
