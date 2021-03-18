@@ -5,6 +5,8 @@ import "./Home.css";
 import Sidebar from './Sidebar';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import CarFeatures from './CarFeatures';
+import BackSide from './BackSide';
+
 
 
 
@@ -46,18 +48,20 @@ function Home() {
              
                  
                  <CarFeatures />
-
+                 
                  {/* <ExpandMoreIcon onClick={()=>{scrollToPos(500)}} style={{color:"white",fontSize:50,position:"fixed",top:580}} /> */}
             
 
            
            {/* <img src="https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2017/11/Tesla-Roadster-103.jpg" style={{width:"100%",height:"100%",objectFit:"contain",overflow:"hidden"}} alt="" /> */}
+            
         </div>
 
-        <div id="heythere">
-            <h1>test</h1>
+        <div>
+            
+        <BackSide />
         </div>
-        
+       
         </div>
     )
 }
