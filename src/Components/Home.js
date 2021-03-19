@@ -8,6 +8,7 @@ import Video from './Video';
 
 import BackSide from './BackSide';
 import Footer from './Footer';
+import TopSide from './TopSide';
 
 
 
@@ -15,8 +16,8 @@ import Footer from './Footer';
 function Home() {
 
     const { innerWidth: width, innerHeight: height } = window;
-
-    
+   
+    const [roof, setRoof] = useState(false);
 
     
     const scrollToPos = (pos) => {
@@ -26,7 +27,7 @@ function Home() {
     }
     
     
-F:
+
     
     return (
 
@@ -74,6 +75,9 @@ F:
         <div >
             <BackSide />
 
+        </div>
+        <div>
+            <TopSide roof_cond = {true} />
         </div>
 
         <div >

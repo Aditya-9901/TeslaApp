@@ -1,0 +1,32 @@
+.open {
+  background-image: url("https://www.tesla.com/tesla_theme/assets/img/_vehicle_redesign/roadster_and_semi/roadster/top_2.jpg");
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.close {
+  background-image: url("https://www.tesla.com/tesla_theme/assets/img/_vehicle_redesign/roadster_and_semi/roadster/top.jpg");
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.head {
+  color: #fff;
+  margin-top: 855px;
+  margin-left: 271px;
+  font-family: "Gotham Medium", "system", sans-serif;
+}
+.desc {
+  font-family: "Gotham Medium", "system", sans-serif;
+  color: #fff;
+  width: 337px;
+  font-size: 16px;
+  margin-left: 271px;
+  margin-top: 10px;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+}

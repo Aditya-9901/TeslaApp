@@ -35,13 +35,14 @@
 }
 .rightNav {
   display: flex;
-
   margin-top: 10px;
 }
 .leftNav {
+  display: flex;
   margin-top: 10px;
 }
 .centerNav {
+  display: flex;
   margin-top: 10px;
 }
 
